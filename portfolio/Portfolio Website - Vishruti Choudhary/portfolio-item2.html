@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishruti Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="img/vishruti_choudhary.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Pizza Sales Report<strong></strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"></p>
+        <img src="img/portfolio-02.png" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>The problem statement is that we need to analyze key indicators for our pizza sales data to gain
+            insights into business performance. We have calculated some metrics.</p>
+            
+        <p>
+            I have imported the data on MySQL server by creating the database to store the data. I have also
+            written some SQL queries which will be required in the project and we will save the query and
+            result in form of PDF to share it with client.</p>
+        <p>   
+            I have created the Dynamic Dashboard using Tableau and done some data visualizations by
+            creating some charts.
+        </p>
+        <a href="https://github.com/vishruti-choudhary/Pizza_sales_report">
+            <button class="button" style="   background-color:rgb(255, 0, 179) ; /* pink */
+        border: none;
+        color: rgb(10, 10, 10);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 32vw;
+        cursor: pointer;">Project</button>
+        </a>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <a href="mailto:divijkharche01@gmail.com" class="footer__link">vishruti.choudahry2020@vitbhopal.ac.in</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/vishruti-choudhary-7a0618209/">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/vishruti_choudhary/">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li>
+            
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/vishruti-choudhary/">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="app/index.js"></script>
+
+</body>
+
+</html>

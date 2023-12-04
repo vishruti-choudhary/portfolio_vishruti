@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishruti Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/vishruti_choudhary.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Road Accident Analytics<strong></strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"></p>
+        <img src="img/portfolio-01.png" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>
+            The project aims to improve road safety by analyzing a large dataset containing critical
+            information about accidents, such as severity, date, location, and vehicle types. The
+            ultimate goal is to provide actionable insights for traffic engineers and law enforcement
+            agencies.
+            <br>
+            To address the road accident problem comprehensively, a proposed solution is the
+            implementation of an Integrated Road Safety Management System (IRSMS). This system
+            combines various strategies and technologies to create a holistic approach towards
+            improving road safety.
+            <br>
+            The dataset is specifically of UK region obtained from Kaggle. It has over half a million
+            records collected over the time period 2019-2022.
+
+        </p>
+        <img src="img/portfolio-details.jpg" alt="">
+
+        <a href="https://github.com/vishruti-choudhary/SmartBridge-Project">
+            <button class="button" style="   background-color: rgb(255, 0, 179); /* pink */
+        border: none;
+        color: rgb(4, 4, 4);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 32vw;
+        cursor: pointer;">Project</button>
+        </a>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <a href="mailto:divijkharche01@gmail.com" class="footer__link">vishruti.choudhary2020@vitbhopal.ac.in</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/vishruti-choudhary-7a0618209/">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.instagram.com/vishruti_choudhary/">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li>
+            
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/vishruti-choudhary/">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="app/index.js"></script>
+
+</body>
+
+</html>
